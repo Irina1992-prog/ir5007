@@ -1,0 +1,107 @@
+ 
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    min-height: 100vh;
+ }
+
+.header{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-bottom: 2px solid #696969;
+}
+
+.header_menu{
+  color: #800000;
+}
+
+.header_menu:hover{
+    color: #808080;
+
+}
+
+.main{
+    width: 62.5rem;
+    height: 80%;
+    padding-top: 3.125rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img{
+    border: 2px solid #696969;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link{
+    color: #800000;
+}
+
+.link:hover {
+    color: #808080;
+  }
+
+.title{
+    font-family: 'Georgia', sans-serif;
+    color: #808080;
+}
+
+.section__sabtitle{
+    font-family: 'Georgia', sans-serif;
+    color: #808080;
+    border-left: 5px solid #800000;
+    padding-left: 10px;
+    margin-top: 1.875rem;
+
+}
+
+.section__sabtitle,
+.title,
+.biography{
+    margin-left: 3.125rem;
+}
+
+.biography{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.skills{
+    padding-left: 4.75rem;
+
+}
+
+.list{
+    padding-bottom: 5px;
+}
+
+.footer{
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    color: #808080;
+
+}
+
+hr{
+    width: 1000%;
+    border-color: #696969;
+    border-width: 1.5px;
+}
+

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url("fonts/ofont.ru_Georgia.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url("fonts/ofont.ru_Helvetica_Condenced-Normal.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
